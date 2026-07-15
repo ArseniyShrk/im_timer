@@ -179,4 +179,7 @@ svg {
     grid-template-columns: 1fr 1fr;
     gap: 0.8em;
   }
+  body {
+    font-size: 0.9em;
+  }
 }
