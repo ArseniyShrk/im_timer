@@ -1,4 +1,4 @@
-const start_waiting_date = Date.UTC(2000, 0, 0, 0, 0, 0);
+const start_waiting_date = Date.UTC(2025, 5, 19, 0, 0, 0);
 
 const days = document.getElementById("days");
 const hours = document.getElementById("hours");
