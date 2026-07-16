@@ -1,46 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
+  <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Эксперимент — Таймер ожидания</title>
-    <link href="style.css" rel="stylesheet">
-</head>
-<body> 
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
     <div class="timer-card">
-        <h1 class="title">
-            Экспер<span class="highlight">им</span>ент
-        </h1>
-        <div class="timer-label">Текущее время ожидания</div>
-        <div class="timer-grid">
-            <div class="timer-item">
-                <div class="timer-value" id="days">00</div>
-                <div class="timer-unit">Дней</div>
-            </div>
-            <div class="timer-item">
-                <div class="timer-value" id="hours">00</div>
-                <div class="timer-unit">Часов</div>
-            </div>
-            <div class="timer-item">
-                <div class="timer-value" id="minutes">00</div>
-                <div class="timer-unit">Минут</div>
-            </div>
-            <div class="timer-item">
-                <div class="timer-value" id="seconds">00</div>
-                <div class="timer-unit">Секунд</div>
-            </div>
+      <h1 class="title">Экспер<span class="highlight">им</span>ент</h1>
+      <div class="timer-label">Текущее время ожидания</div>
+      <div class="timer-grid">
+        <div class="timer-item">
+          <div class="timer-value" id="days">00</div>
+          <div class="timer-unit">Дней</div>
         </div>
-        <div class="realese-date">дата не объявлена</div>
-        <div class="copy-row">
-            <span class="copy-text">жду им день 0</span>
-            <button class="copy-btn" title="Скопировать">
-                <svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2" stroke="currentColor" /><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" stroke="currentColor" /></svg>
-            </button>
+        <div class="timer-item">
+          <div class="timer-value" id="hours">00</div>
+          <div class="timer-unit">Часов</div>
         </div>
-
+        <div class="timer-item">
+          <div class="timer-value" id="minutes">00</div>
+          <div class="timer-unit">Минут</div>
+        </div>
+        <div class="timer-item">
+          <div class="timer-value" id="seconds">00</div>
+          <div class="timer-unit">Секунд</div>
+        </div>
+      </div>
+      <div class="realese-date">дата не объявлена</div>
+      <div class="copy-row">
+        <span class="copy-text">жду им день 0</span>
+        <button class="copy-btn" title="Скопировать">
+          <svg viewBox="0 0 24 24">
+            <rect
+              x="9"
+              y="9"
+              width="13"
+              height="13"
+              rx="2"
+              stroke="currentColor"
+            />
+            <path
+              d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+              stroke="currentColor"
+            />
+          </svg>
+        </button>
+      </div>
     </div>
     <div class="copy-feedback">Скопировано!</div>
     <script src="index.js"></script>
-
-</body>
+  </body>
 </html>
