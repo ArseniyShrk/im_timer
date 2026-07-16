@@ -32,8 +32,6 @@ copy_row.addEventListener("click", () => {
     const textarea = document.createElement("textarea");
     textarea.value = copy_text.innerText;
     textarea.setAttribute("readonly", "");
-    textarea.style.cssText =
-      "position:fixed; left:-9999px; top:-9999px; opacity:0;";
     document.body.appendChild(textarea);
     textarea.select();
     const success = document.execCommand("copy");
